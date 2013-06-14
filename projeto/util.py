@@ -22,3 +22,7 @@ def escrever_ficheiro(ficheiro, lista):
 		print "Escrevi ficheiro %s" % (ficheiro)
 	except:
 		print "Erro a gravar ficheiro %s!" % (ficheiro)
+
+
+if __name__ == "__main__":
+    print "Este programa não deve ser executado diretamente"
