@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import menu
-import alunos
+import veiculos
 import util
 
 
@@ -10,11 +10,11 @@ fxAlunos = "f1.fichdojoel"
 
 def ler_ficheiros():
 	# adicionar todos ficheiros a ler
-	alunos.listaAlunos = util.ler_ficheiro(fxAlunos)
+	veiculos.listaAlunos = util.ler_ficheiro(fxAlunos)
 
 def escrever_ficheiros():
 	# adicionar todos ficheiros a guardar
-	util.escrever_ficheiro(fxAlunos, alunos.listaAlunos)
+	util.escrever_ficheiro(fxAlunos, veiculos.listaAlunos)
 
 
 
@@ -27,7 +27,7 @@ while not terminar:
     op = menu.principal()
     
     if op == '1':
-        alunos.gerir()
+        veiculos.gerir()
     elif op == '2':
         pass    #por fazer
     elif op == '0':

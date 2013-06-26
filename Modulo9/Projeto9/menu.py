@@ -4,7 +4,7 @@ def principal():
     print
     print " **** MENU ****** "
     print
-    print "   1. Gestão de Alunos"
+    print "   1. Gestão de Veiculos"
     print "   2. Registar Presença (não implementado)"
     print 
     print "   0. Sair"
@@ -18,11 +18,11 @@ def alunos():
     print
     print " *** Menu Alunos **** "
     print
-    print "1. Inserir novo aluno"
-    print "2. Listar todos alunos"
-    print "3. Pesquisar aluno"
-    print "4. Alterar dados de um aluno"
-    print "5. Eliminar aluno"
+    print "1. Inserir novo veiculo"
+    print "2. Listar todos veiculos"
+    print "3. Pesquisar veiculo"
+    print "4. Alterar dados de um veiculo"
+    print "5. Eliminar veiculoo"
     print 
     print "0. Menu Anterior"
 
